@@ -8,13 +8,13 @@ const Services = () => {
   const [slide, setSlide] = React.useState(0);
 
   return (
-    <div className="px-24 max-w-6xl m-auto">
+    <div className="py-16 max-w-6xl m-auto px-4 md:px-2">
       <div className="text-center pb-12">
         <h2 className="text-5xl">What We Do</h2>
       </div>
       <div className="grid grid-cols-1 md:grid-cols-2 gap-2">
         <div>
-          <img src={Mockup} width="400px" className="md:m-auto pb-6 md:pb-0"/>
+          <img src={Mockup} width="400px" className="m-auto pb-6 md:pb-0"/>
         </div>
         <div>
           <div className="pb-4 flex justify-between header-bold text-xl">

@@ -7,6 +7,7 @@ import Seo from "../components/seo"
 
 import Hero from "../components/home/Hero"
 import Services from "../components/home/Services"
+import Work from "../components/home/Work"
 
 const BlogIndex = ({ data, location }) => {
   const siteTitle = data.site.siteMetadata?.title || `Title`
@@ -23,6 +24,7 @@ const BlogIndex = ({ data, location }) => {
         </h4>
       </div>
       <Services />
+      <Work />
       <ol style={{ listStyle: `none` }}>
         {posts.map(post => {
           const title = post.frontmatter.title || post.fields.slug
