@@ -6,24 +6,11 @@ import Layout from "../components/layout"
 import Seo from "../components/seo"
 
 import Hero from "../components/home/Hero"
+import Services from "../components/home/Services"
 
 const BlogIndex = ({ data, location }) => {
   const siteTitle = data.site.siteMetadata?.title || `Title`
   const posts = data.allMarkdownRemark.nodes
-
-  if (posts.length === 0) {
-    return (
-      <Layout location={location} title={siteTitle}>
-        <Seo title="All posts" />
-        <Bio />
-        <p>
-          No blog posts found. Add markdown posts to "content/blog" (or the
-          directory you specified for the "gatsby-source-filesystem" plugin in
-          gatsby-config.js).
-        </p>
-      </Layout>
-    )
-  }
 
   return (
     <Layout location={location} title={siteTitle}>
@@ -35,6 +22,7 @@ const BlogIndex = ({ data, location }) => {
           Total Web Connections is a bespoke software development partener in the Chicago suburbs. We offer services to small and mid sized businsses looking to streamline their operations through custom software.
         </h4>
       </div>
+      <Services />
       <ol style={{ listStyle: `none` }}>
         {posts.map(post => {
           const title = post.frontmatter.title || post.fields.slug
