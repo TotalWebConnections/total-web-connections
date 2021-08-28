@@ -8,6 +8,8 @@ import Seo from "../components/seo"
 import Hero from "../components/home/Hero"
 import Services from "../components/home/Services"
 import Work from "../components/home/Work"
+import Blog from "../components/home/Blog"
+import Process from "../components/home/Process"
 
 const BlogIndex = ({ data, location }) => {
   const siteTitle = data.site.siteMetadata?.title || `Title`
@@ -25,38 +27,7 @@ const BlogIndex = ({ data, location }) => {
       </div>
       <Services />
       <Work />
-      <ol style={{ listStyle: `none` }}>
-        {posts.map(post => {
-          const title = post.frontmatter.title || post.fields.slug
-
-          return (
-            <li key={post.fields.slug}>
-              <article
-                className="post-list-item"
-                itemScope
-                itemType="http://schema.org/Article"
-              >
-                <header>
-                  <h2>
-                    <Link to={post.fields.slug} itemProp="url">
-                      <span itemProp="headline">{title}</span>
-                    </Link>
-                  </h2>
-                  <small>{post.frontmatter.date}</small>
-                </header>
-                <section>
-                  <p
-                    dangerouslySetInnerHTML={{
-                      __html: post.frontmatter.description || post.excerpt,
-                    }}
-                    itemProp="description"
-                  />
-                </section>
-              </article>
-            </li>
-          )
-        })}
-      </ol>
+      <Process />
     </Layout>
   )
 }

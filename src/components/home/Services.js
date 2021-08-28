@@ -48,19 +48,19 @@ const Services = () => {
             style={{height: "300px"}}
           >
             <p
-              className="absolute transition-all"
+              className="absolute transition-all min-w-full"
               style={{left: slide === 0 ? "0px" : "100%"}}
             >
               A place for your business to live online. Beautiful, functional sites uniquely designed for your brand.
             </p>
             <p
-              className="absolute transition-all"
+              className="absolute transition-all min-w-full"
               style={{left: slide === 1 ? "0px" : "100%"}}
             >
               For complex functional needs. Database driven and optimize from design to the code to be efficient.
             </p>
             <p
-              className="absolute transition-all"
+              className="absolute transition-all min-w-full"
               style={{left: slide === 2 ? "0px" : "100%"}}
             >
               Dedicated solutions for mobile devices. Custom designed to work on mobile devices.

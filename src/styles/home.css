@@ -7,6 +7,14 @@
   background: rgba(54, 160, 205, 0.8);
 }
 
+.Home__workItem__overlay.red {
+  background: rgba(205, 88, 113, 0.0);
+}
+
+.Home__workItem:hover .Home__workItem__overlay.red{
+  background: rgba(205, 88, 113, 0.8);
+}
+
 
 .Home__workItem__content {
   opacity: 0;
@@ -14,4 +22,17 @@
 
 .Home__workItem:hover .Home__workItem__content {
   opacity: 1;
+}
+
+
+
+.blueDot:before {
+  position: absolute;
+  content: '';
+  width: 14px;
+  height: 14px;
+  border-radius: 50%;
+  background: #36a0cd;
+  top: calc(50% - 7px);
+  left: 0;
 }
