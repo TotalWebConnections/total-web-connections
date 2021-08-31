@@ -1,6 +1,8 @@
 import * as React from "react"
 import { Link } from "gatsby"
 
+import Map from './Map'
+
 const Footer = () => {
 
   return (
@@ -14,6 +16,7 @@ const Footer = () => {
           <button>Contact</button>
         </div>
       </div>
+      <Map />
       <div className="bg-primary text-white text-center py-2">
         <p>© 2021 Total Web Connections. All Rights Reserved</p>
       </div>
