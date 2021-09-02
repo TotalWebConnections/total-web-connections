@@ -1,0 +1,27 @@
+.subHeader {
+  background: #4BB3FD;
+  background: -webkit-linear-gradient(to left, #4BB3FD, #00487C);
+  background: -webkit-gradient(linear, right top, left top, from(#4BB3FD), to(#00487C));
+  background: -webkit-linear-gradient(right, #4BB3FD, #00487C);
+  background: -o-linear-gradient(right, #4BB3FD, #00487C);
+  background: linear-gradient(to left, #4BB3FD, #00487C);
+}
+
+.ServiceBlock {
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+.ServiceBlock:before {
+  content: "";
+  position: absolute;
+  left: 0; right: 0;
+  top: 0; bottom: 0;
+  background: rgba(0,0,0,.75);
+}
+
+.ServiceBlock div {
+  position: relative;
+  z-index: 2;
+}

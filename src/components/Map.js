@@ -17,7 +17,6 @@ const Map = () => {
       </div>
 
       <div id="map" className="googleMap" style={{height: "350px", width: "100%"}}>
-          <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyArEam9KzNPl_ORcpMmUP3Kvo-s8Dl1aPE&v=3"></script>
       </div>
     </div>
   )
