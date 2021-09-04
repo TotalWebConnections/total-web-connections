@@ -21,7 +21,7 @@ const BlogIndex = ({ data, location }) => {
     <Layout location={location} title={siteTitle}>
       <Seo title="Total Web Connections" />
       <SubHero header="One Stop. Everything You Need." copy={copy}/>
-      <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 text-white">
+      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 text-white">
         <div className="ServiceBlock text-center" style={{backgroundImage: "url('/images/development.jpeg')"}}>
           <a href="#">
             <div className="py-28">

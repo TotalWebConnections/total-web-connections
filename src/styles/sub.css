@@ -25,3 +25,11 @@
   position: relative;
   z-index: 2;
 }
+
+.WorkBlock__copy {
+  bottom: -50%;
+}
+
+.WorkBlock:hover .WorkBlock__copy {
+  bottom: 25px;
+}
