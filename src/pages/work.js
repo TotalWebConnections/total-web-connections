@@ -10,7 +10,6 @@ import { projects } from '../portfolio/projects'
 
 const BlogIndex = ({ data, location }) => {
   const siteTitle = data.site.siteMetadata?.title || `Title`
-
   const copy = "We're proud of our work. Check out some of our previous and ongoing projects.";
   return (
     <Layout location={location} title={siteTitle}>
@@ -24,7 +23,7 @@ const BlogIndex = ({ data, location }) => {
               key={project.name}
               style={{backgroundImage: `url('/images/portfolio/${project.image}')`, height: "230px"}}
             >
-              <a href="#">
+              <Link to={`/work/${project.localUrl}`} itemProp="url">
                 <div
                   className="absolute h-full w-full"
                   style={{backgroundColor: "rgba(64, 78, 91, 0.9)"}}
@@ -40,7 +39,7 @@ const BlogIndex = ({ data, location }) => {
                     { project.excerpt }
                   </p>
                 </div>
-              </a>
+              </Link>
             </div>
           )
         })}

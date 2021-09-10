@@ -5,14 +5,14 @@ import Layout from "../../components/layout"
 import WorkPage from "../../components/workPage"
 import Seo from "../../components/seo"
 
-import { simpleLeadTracker } from '../../portfolio/simpleLeadTracker'
+import { simpleGoalsTracker } from '../../portfolio/simpleGoalsTracker'
 
-const BlogIndex = ({location }) => {
+const BlogIndex = ({ location }) => {
 
   return (
     <Layout location={location}>
-      <Seo title="Total Web Connections | Our Work" />
-      <WorkPage project={simpleLeadTracker} />
+      <Seo title="Total Web Connections | Our Work | Simple Goals Tracker" />
+      <WorkPage project={simpleGoalsTracker} />
 
     </Layout>
   )
