@@ -8,7 +8,10 @@ const SubHero = ({header, copy}) => {
     <div className="relative subHeader py-44">
       <div className="text-white text-center max-w-xl m-auto">
         <h1 className="text-5xl">{ header }</h1>
-        <p className="pt-8">{ copy }</p>
+        {copy
+         ? <p className="pt-8">{ copy }</p>
+         : null
+       }
       </div>
     </div>
   )
