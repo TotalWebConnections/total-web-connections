@@ -1,0 +1,9 @@
+.BlogCard {
+  background: #f9f8f8;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.BlogCard:hover {
+  background: #36a0cd;
+  color: white;
+}

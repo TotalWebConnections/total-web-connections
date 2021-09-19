@@ -16,3 +16,4 @@ import "prismjs/themes/prism.css"
 import './src/styles/global.css';
 import './src/styles/home.css';
 import './src/styles/sub.css';
+import './src/styles/blog.css';
