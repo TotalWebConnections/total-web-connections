@@ -27,7 +27,6 @@ const BlogIndex = ({ data, location }) => {
       </div>
       <Services />
       <Work />
-      <Process />
     </Layout>
   )
 }

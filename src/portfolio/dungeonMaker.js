@@ -3,6 +3,7 @@ export const dungeonMaker = {
   excerpt: "Dungeon Building Mobile App",
   image: "simpleLeadTracker.webp",
   localUrl: "dungeon-maker",
+  featured: true,
   url: "#",
   description: "Dugeon Maker is a mobile app for buidling tiled dungeons. The perfect tool for any dungeon master and RPG lover.",
   challenge: "Building a map editor that is easy to use on mobile is not easy, but we were up for the challenge. A map editing tool is inherently complex, and this can make creating a mobile friendly UI difficult.",
