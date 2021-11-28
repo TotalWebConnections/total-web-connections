@@ -46,6 +46,12 @@
   text-align: center;
 }
 
+@media (max-width: 768px) {
+  .service-card {
+    margin: 25px 45px;
+  }
+}
+
 
 .WorkModal {
   visibility: hidden;

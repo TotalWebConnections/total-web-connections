@@ -4,15 +4,37 @@ import { Link } from "gatsby"
 import Button from '../Button';
 
 
+// <div className="grid grid-cols-2 max-w-4xl mx-auto">
+//   <div className="service-card">
+//     <i class="text-primary text-4xl fa fa-mobile"></i>
+//     <h3 className="py-3 text-2xl">
+//       Content Creation
+//     </h3>
+//     <p>
+//       From written articles to marketing images we work with you .
+//     </p>
+//   </div>
+//   <div className="service-card">
+//     <i class="text-primary text-4xl fa fa-mobile"></i>
+//     <h3 className="py-3 text-2xl">
+//       Mobile Applications
+//     </h3>
+//     <p>
+//       Dedicated solutions for mobile devices. Custom designed to work on mobile devices.
+//     </p>
+//   </div>
+// </div>
+
 const Services = () => {
   const [slide, setSlide] = React.useState(0);
 
   return (
     <div className="mt-32 py-24 bg-gray">
-      <h2 className="text-4xl text-center">Our Services</h2>
-      <div className="grid grid-cols-3 max-w-4xl mx-auto">
-        <div className="service-card">
-          <h3 className="text-2xl">
+      <h2 className="text-4xl font-bold text-center">Our Services</h2>
+      <div className="grid md:grid-cols-3 max-w-4xl mx-auto">
+        <div className="service-card mx-auto">
+          <i class="text-primary text-4xl fa fa-desktop"></i>
+          <h3 className="py-3 text-2xl">
             Web Development
           </h3>
           <p>
@@ -20,7 +42,8 @@ const Services = () => {
           </p>
         </div>
         <div className="service-card">
-          <h3 className="text-2xl">
+          <i class="text-primary text-4xl fa fa-database"></i>
+          <h3 className="py-3 text-2xl">
             App Development
           </h3>
           <p>
@@ -28,7 +51,8 @@ const Services = () => {
           </p>
         </div>
         <div className="service-card">
-          <h3 className="text-2xl">
+          <i class="text-primary text-4xl fa fa-mobile"></i>
+          <h3 className="py-3 text-2xl">
             Mobile Applications
           </h3>
           <p>
