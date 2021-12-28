@@ -12,10 +12,13 @@ const WorkModal = ({active, onClose, activeProject}) => {
     >
       <div className="WorkModal__inner h-3/4 bg-white w-9/12 p-4">
         <p onClick={() => onClose(false)}>X</p>
-        <div class="grid grid-cols-2 gap-4">
+        <div class="grid grid-cols-2 gap-4 pt-4">
           <div>
-            <h2 className="text-2xl">{ activeProject?.name }</h2>
-            <p className="text-lg">{ activeProject?.description }</p>
+            <h2 className="text-2xl font-bold">{ activeProject?.name }</h2>
+            <p className="text-lg py-4">{ activeProject?.description }</p>
+            <div>
+              <a href={activeProject?.url}><button>Live Link</button></a>
+            </div>
           </div>
           <div>
             <img src={`/images/portfolio/${activeProject?.image}`} width="90%" />

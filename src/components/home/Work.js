@@ -17,16 +17,19 @@ const Work = () => {
     <div>
       <WorkModal activeProject={activeProject} active={modalOpen} onClose={setModalOpen}/>
       <div className="max-w-4xl mx-auto py-28">
-        <h2 className="text-4xl">What We've Done</h2>
-        <div className="grid grid-cols-3">
-          <div onClick={() => onProjectClick(1)} >
-            <p>The Indoor Gardens - Gardening Focus Static Blog</p>
+        <h2 className="text-4xl font-bold">What We've Done</h2>
+        <div className="pt-8 grid grid-cols-3">
+          <div className="WorkItem px-4 py-4 bg-white transition-all hover:text-white"  onClick={() => onProjectClick(1)} >
+            <img src="/images/portfolio/indoor-gardens.jpg" width="300px" />
+            <p className="pt-4">The Indoor Gardens - Gardening Focus Static Blog</p>
           </div>
-          <div onClick={() => onProjectClick(0)}>
-            <p>Simple Lead Tracker - Simple to use CMS for freelancers</p>
+          <div className="WorkItem px-4 py-4 bg-white transition-all hover:text-white"   onClick={() => onProjectClick(0)}>
+            <img src="/images/portfolio/simple-lead-tracker.jpg" width="300px" />
+            <p className="pt-4">Simple Lead Tracker - Simple to use CMS for freelancers</p>
           </div>
-          <div onClick={() => onProjectClick(2)}>
-            <p>Narrative Planner - World building software for everyone</p>
+          <div className="WorkItem px-4 py-4 bg-white transition-all hover:text-white"  onClick={() => onProjectClick(2)}>
+            <img src="/images/portfolio/narrative-planner.jpg" width="300px" />
+            <p className="pt-4">Narrative Planner - World building software for everyone</p>
           </div>
         </div>
       </div>

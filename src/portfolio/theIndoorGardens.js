@@ -1,7 +1,7 @@
 export const theIndoorGardens = {
   name: "The Indoor Gardens",
   excerpt: "Garden Blog + Marketing",
-  image: "simpleLeadTracker.webp",
+  image: "indoor-gardens.jpg",
   localUrl: "the-indoor-gardens",
   featured: true,
   url: "https://www.theindoorgardens.com",
