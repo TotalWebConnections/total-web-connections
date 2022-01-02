@@ -17,7 +17,7 @@ const WorkModal = ({active, onClose, activeProject}) => {
             <h2 className="text-2xl font-bold">{ activeProject?.name }</h2>
             <p className="text-lg py-4">{ activeProject?.description }</p>
             <div>
-              <a href={activeProject?.url}><button>Live Link</button></a>
+              <a className="text-primary hover:text-black transition-all" href={activeProject?.url} target="_blank"><button>Live Link</button></a>
             </div>
           </div>
           <div>

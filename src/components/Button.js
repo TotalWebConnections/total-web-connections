@@ -7,9 +7,11 @@ const Button = ({ text, url }) => {
 
 
   return (
-    <span className="Button border border-white inline-block py-3 px-5 rounded hover:bg-white hover:text-primary transition-all">
-      <h4 className="text-2xl">{ text }</h4>
-    </span>
+    <a href={url}>
+      <span className="Button mt-4 border border-primary bg-primary text-white inline-block py-3 px-8 rounded hover:bg-white hover:text-primary transition-all">
+        <h4 className="text-2xl">{ text }</h4>
+      </span>
+    </a>
   )
 }
 
