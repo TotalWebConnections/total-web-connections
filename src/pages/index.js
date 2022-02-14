@@ -21,7 +21,7 @@ const BlogIndex = ({ data, location }) => {
     <Layout location={location} title={siteTitle}>
       <Seo title="Total Web Connections" />
       <Hero />
-      <div className="grid grid-cols-2 gap-4 pt-32 max-w-5xl mx-auto">
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-4 pt-32 max-w-5xl mx-auto px-4 text-center md:text-left">
         <div>
           <h2 className="text-5xl pb-4">SOFTWARE. WEBSITES. APPS.</h2>
           <h4 className="text-xl">

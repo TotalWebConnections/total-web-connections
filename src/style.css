@@ -45,3 +45,16 @@ h6,
   background-color: rgba(16, 55, 92, 0.85);
   cursor: pointer;
 }
+
+
+@media (max-width: 768px) {
+  .Hero {
+    height: 50vh;
+    overflow: hidden;
+  }
+
+  .Hero img {
+    height: 50vh;
+    max-width: none;
+  }
+}

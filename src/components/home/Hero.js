@@ -6,7 +6,7 @@ import Bg  from '../../images/bg.svg'
 const Hero = () => {
 
   return (
-    <div className="relative">
+    <div className="relative Hero">
       <img src={Bg} />
       <div className="absolute text-center flex flex-col w-full h-full justify-center text-3xl md:text-5xl" style={{top: "0px"}}>
         <h2 className="text-secondary header-bold">Welcome</h2>

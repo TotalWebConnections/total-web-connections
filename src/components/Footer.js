@@ -46,7 +46,7 @@ const Footer = () => {
         </div>
       </div>
       <div className="bg-primary text-white text-center py-2">
-        <div className="flex justify-between max-w-4xl mx-auto">
+        <div className="md:flex justify-between max-w-4xl mx-auto">
           <div>
             <div className="py-4 flex">
               <a href="https://www.facebook.com/TotalWebConnections/" target="_blank"><img className="mx-2 " src={Facebook} alt="TWC Facebook" width="38px"/></a>
