@@ -54,14 +54,14 @@
 
 
 .WorkModal {
-  visibility: hidden;
+  display: none;
   z-index: 200;
   top: 0;
   left: 0;
 }
 
 .WorkModal.active {
-  visibility: visible;
+  display: flex;
 }
 
 .WorkModal__inner {

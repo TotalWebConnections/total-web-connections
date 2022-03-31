@@ -5,6 +5,8 @@ import { projects } from '../../portfolio/projects'
 
 const WorkModal = ({active, onClose, activeProject}) => {
 
+  console.log(active)
+
   return (
     <div
       className={`WorkModal fixed h-full w-full flex justify-center items-center ${active ? "active" : null}`}

@@ -4,7 +4,6 @@ import { projects } from '../../portfolio/projects'
 import WorkModal from './WorkModal'
 
 const Work = () => {
-  console.log(projects)
   const [modalOpen, setModalOpen] = React.useState(false)
   const [activeProject, setActiveProject] = React.useState(null)
 
