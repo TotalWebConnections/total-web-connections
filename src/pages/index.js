@@ -21,16 +21,11 @@ const BlogIndex = ({ data, location }) => {
     <Layout location={location} title={siteTitle}>
       <Seo title="Total Web Connections" />
       <Hero />
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-4 pt-32 max-w-5xl mx-auto px-4 text-center md:text-left">
-        <div>
-          <h2 className="text-5xl pb-4">SOFTWARE. WEBSITES. APPS.</h2>
-          <h4 className="text-xl">
-            Total Web Connections is a bespoke software development partener in the Chicago suburbs. We offer services to small and mid sized businsses looking to streamline their operations through custom software.
-          </h4>
-        </div>
-        <div>
-          <img src={About} width="400px" alt="About Total Web Connections"/>
-        </div>
+      <div className="pt-32 max-w-4xl mx-auto px-4 text-center">
+        <h2 className="text-5xl font-bold pb-6">SOFTWARE. WEBSITES. APPS.</h2>
+        <p className="text-xl">
+          Total Web Connections is a bespoke software development partener in the Chicago suburbs. We offer services to small and mid sized businsses looking to streamline their operations through custom software.
+        </p>
       </div>
 
       <Services />
