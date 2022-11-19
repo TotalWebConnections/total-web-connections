@@ -39,11 +39,26 @@ h6,
 
 .WorkItem {
   border-radius: 24px;
+  cursor: pointer;
 }
 
-.WorkItem:hover  {
-  background-color: rgba(16, 55, 92, 0.85);
+.WorkItem img{
+  transform: scale(1.25);
+  transition: all 0.75s;
+}
+
+.WorkItem:hover img{
+  transform: scale(1);
   cursor: pointer;
+}
+
+.WorkItem .WorkItem__content{
+  opacity: 0;
+  transition: all 0.75s;
+}
+
+.WorkItem:hover .WorkItem__content{
+ opacity: 1; 
 }
 
 
