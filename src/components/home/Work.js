@@ -17,6 +17,7 @@ const Work = () => {
       <WorkModal activeProject={activeProject} active={modalOpen} onClose={setModalOpen}/>
       <div className="max-w-4xl mx-auto py-28 px-4">
         <h2 className="text-4xl font-bold text-center md:text-left">What We've Done</h2>
+        <p>A sample sampling of the projects we've worked on.</p>
         <div className="pt-8 grid grid-cols-1 md:grid-cols-3">
           <div className="WorkItem px-4 py-4 mt-8 md:mt-0 bg-white transition-all"  onClick={() => onProjectClick(1)} >
             <div className="overflow-hidden relative">

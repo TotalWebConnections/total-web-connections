@@ -22,9 +22,9 @@ const BlogIndex = ({ data, location }) => {
       <Seo title="Total Web Connections" />
       <Hero />
       <div className="pt-32 max-w-4xl mx-auto px-4 text-center">
-        <h2 className="text-5xl font-bold pb-6">SOFTWARE. WEBSITES. APPS.</h2>
+        <h2 className="text-5xl font-bold pb-6">SOFTWARE. WEBSITES. CONTENT.</h2>
         <p className="text-xl">
-          Total Web Connections is a bespoke software development partener in the Chicago suburbs. We offer services to small and mid sized businsses looking to streamline their operations through custom software.
+          Total Web Connections is software and content development company located in the Chicago suburbs. We focus on building engaging software experiences and marketing brands. We own a variety of software and websites, and work with a select few clients to help them grow.
         </p>
       </div>
 

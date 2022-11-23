@@ -10,10 +10,9 @@ const Hero = () => {
       <img src={Bg} />
       <div className="absolute text-center flex flex-col w-full h-full justify-center text-3xl md:text-5xl" style={{top: "0px"}}>
         <h2 className="text-secondary header-bold">Welcome</h2>
-        <h2 className="text-white">We Build Beautiful</h2>
-        <h2 className="text-white">Sites And Rock Solid</h2>
-        <h2 className="text-white">Applications</h2>
-        <h2 className="text-white">Let's Get Started!</h2>
+        <h2 className="text-white">We Build Great Software</h2>
+        <h2 className="text-white">Awesome Websites</h2>
+        <h2 className="text-white">And Killer Content</h2>
       </div>
     </div>
   )
