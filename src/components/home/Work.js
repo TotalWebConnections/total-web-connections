@@ -15,11 +15,11 @@ const Work = () => {
   return (
     <div>
       <WorkModal activeProject={activeProject} active={modalOpen} onClose={setModalOpen}/>
-      <div className="max-w-4xl mx-auto py-28 px-4">
-        <h2 className="text-4xl font-bold text-center md:text-left">What We've Done</h2>
-        <p>A sample sampling of the projects we've worked on.</p>
+      <div className="mx-auto pt-28">
+        <h2 className="text-4xl font-bold text-center">What We've Done</h2>
+        <p className="text-center mb-4 text-xl">A sample sample of the projects we've worked and the brands we own.</p>
         <div className="pt-8 grid grid-cols-1 md:grid-cols-3">
-          <div className="WorkItem px-4 py-4 mt-8 md:mt-0 bg-white transition-all"  onClick={() => onProjectClick(1)} >
+          <div className="WorkItem bg-white transition-all"  onClick={() => onProjectClick(1)} >
             <div className="overflow-hidden relative">
               <img src="/images/portfolio/indoor-gardens.jpg" width="100%" />
               
@@ -31,7 +31,7 @@ const Work = () => {
               </div>
             </div>
           </div>
-          <div className="WorkItem px-4 py-4 mt-8 md:mt-0 bg-white transition-all hover:text-white"   onClick={() => onProjectClick(0)}>
+          <div className="WorkItem md:mt-0 bg-white transition-all hover:text-white"   onClick={() => onProjectClick(0)}>
             <div className="overflow-hidden relative">
               <img src="/images/portfolio/simple-lead-tracker.jpg" width="100%" />
               <div 
@@ -42,7 +42,7 @@ const Work = () => {
               </div>
             </div>
           </div>
-          <div className="WorkItem px-4 py-4 mt-8 md:mt-0 bg-white transition-all hover:text-white"  onClick={() => onProjectClick(2)}>
+          <div className="WorkItem md:mt-0 bg-white transition-all hover:text-white"  onClick={() => onProjectClick(2)}>
             <div className="overflow-hidden relative">
               <img src="/images/portfolio/narrative-planner.jpg" width="100%" />
               <div 
