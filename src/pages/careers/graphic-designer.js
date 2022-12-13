@@ -25,6 +25,7 @@ const BlogIndex = ({ data, location }) => {
         <h2 className="mt-16 mb-8 text-left text-4xl">Graphic Designer (Web/Mobile)</h2>
         <p>Position Type: Part Time (Contractor)</p>
         <p>Compensation: $20-30/hr</p>
+        <p>Location: Remote</p>
 
         <p className="mt-6">Total Web Connections is looking for a motivated individual to join our team as a graphic designer. We are looking for a 
         designer interesed in working on a variety of projects from websites to mobile apps. We have a variety of ongoing websites/apps in need of sprucing up, as well
@@ -39,7 +40,7 @@ const BlogIndex = ({ data, location }) => {
           <li>- Work with developers to ensure adherence to design.</li>
         </ul> 
 
-        <p className="mt-8">Note that this is a part time, contract position to start.</p>
+        <p className="mt-8">Note that this is a part time, contract position to start. This is a remote role.</p>
 
         <p className="mt-8">To Apply, <a className="text-primary" href="mailto:info@totalwebconnections.com">email us at info@totalwebconnections</a> and attach your resume.</p>
 

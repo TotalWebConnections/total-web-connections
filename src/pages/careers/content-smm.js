@@ -25,6 +25,7 @@ const BlogIndex = ({ data, location }) => {
         <h2 className="mt-16 mb-8 text-left text-4xl">Content and Social Media Marketing Manager</h2>
         <p>Position Type: Part Time (Contractor)</p>
         <p>Compensation: $25/hr</p>
+        <p>Location: Remote (Illinois)</p>
 
         <p className="mt-6">Total Web Connections is looking for a motivated individual to join our team as a content and Social Media
           Manager. Your role will be to create our content schedule for a variety of web properties, as well as create content for, and manage,
@@ -45,7 +46,7 @@ const BlogIndex = ({ data, location }) => {
           media experience, personal or professional, and a willingness to learn. If you have any SEO experience that's a plus, but not required.
         </p>
 
-        <p className="mt-8">Note that this is a part time, contract position to start. Anticipated workload is about 10 hours per week to start, with room to grow from there.</p>
+        <p className="mt-8">Note that this is a part time, contract position to start. Anticipated workload is about 10 hours per week to start, with room to grow from there. This is a remote position with occasional in person meetings (no more than 1-2 times per month if that).</p>
 
         <p className="mt-8">To Apply, <a className="text-primary" href="mailto:info@totalwebconnections.com">email us at info@totalwebconnections</a> and attach your resume.</p>
 
