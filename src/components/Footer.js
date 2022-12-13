@@ -45,6 +45,15 @@ const Footer = () => {
           <Button text="Contact" url="mailto:info@totalwebconnections.com"/>
         </div>
       </div>
+      <div className=" text-black text-center py-16">
+        <div className="max-w-3xl m-auto">
+          <p className="text-3xl">
+            We're Hiring!
+          </p>
+          <p className="pt-4">Total Web Connections is growing and looking for motivated individuals to join our team!</p>
+          <Button text="See Positions" url="/careers"/>
+        </div>
+      </div>
       <div className="bg-primary text-white text-center py-2">
         <div className="md:flex justify-between max-w-4xl mx-auto">
           <div>

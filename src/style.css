@@ -68,8 +68,5 @@ h6,
     overflow: hidden;
   }
 
-  .Hero img {
-    height: 50vh;
-    max-width: none;
-  }
+ 
 }
