@@ -94,6 +94,23 @@ const Work = () => {
               </div>
             </div>
           </div>
+
+          <div
+            className="WorkItem md:mt-0 bg-white transition-all hover:text-white"
+            onClick={() => onProjectClick(4)}
+          >
+            <div className="overflow-hidden relative">
+              <img src="/images/portfolio/writeProgress.jpg" width="100%" />
+              <div
+                className="WorkItem__content px-2 text-center absolute top-0 text-black h-full w-full flex flex-col justify-center"
+                style={{ background: "rgba(0,0,0,.75)" }}
+              >
+                <p className="text-white text-lg font-bold">
+                  WriteProgress - Writer Focused SaSS App
+                </p>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </div>
