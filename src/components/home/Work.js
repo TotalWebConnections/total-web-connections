@@ -54,7 +54,7 @@ const Work = () => {
                 className="rounded-3xl px-2 mx-auto"
                 src="/images/portfolio/history.png"
                 width="50%"
-                alt="Simple Lead Tracker"
+                alt="Here Be History"
               />
               <div className="pl-6 pt-4 md:pt-0">
                 <h2 className="text-2xl font-bold pb-4">Here Be History</h2>
