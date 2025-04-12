@@ -19,19 +19,19 @@ const Work = () => {
         <p className="text-center mb-4 text-xl">
           A small sample of the apps and sites we own and market.
         </p>
-        <div>
+        <div className="grid md:grid-cols-3 max-w-5xl mx-auto">
           <div
-            className=" bg-gray transition-all Card w-3/4 mx-auto p-16 rounded-3xl border my-16"
+            className=" bg-gray transition-all Card p-4 mx-2 rounded-3xl border my-8"
             style={{ borderColor: "#c7cdce" }}
           >
-            <div className="block md:flex text-center md:text-left">
+            <div className="block text-center md:text-left">
               <img
-                className="rounded-3xl  md:w-3/5 mx-2"
+                className="rounded-3xl  mx-2"
                 src="/images/portfolio/indoor-gardens.jpg"
                 width="100%"
                 alt="The Indoor Gardens"
               />
-              <div className="md:w-2/5 pl-6 pt-4 md:pt-0">
+              <div className="pl-6 pt-4 md:pt-0">
                 <h2 className="text-2xl font-bold pb-4">The Indoor Gardens</h2>
                 <p className="pb-4">Gardening Focused Content Site. </p>
                 <a
@@ -46,24 +46,25 @@ const Work = () => {
           </div>
 
           <div
-            className=" bg-gray transition-all Card w-3/4 mx-auto p-16 rounded-3xl border my-16"
+            className="bg-gray transition-all Card p-4 mx-2 rounded-3xl border my-8"
             style={{ borderColor: "#c7cdce" }}
           >
-            <div className="block md:flex text-center md:text-left">
+            <div className="block text-center md:text-left">
               <img
-                className="rounded-3xl md:w-3/5 px-2"
-                src="/images/portfolio/simple-lead-tracker.jpg"
-                width="100%"
+                className="rounded-3xl px-2 mx-auto"
+                src="/images/portfolio/history.png"
+                width="50%"
                 alt="Simple Lead Tracker"
               />
-              <div className="md:w-2/5 pl-6 pt-4 md:pt-0">
-                <h2 className="text-2xl font-bold pb-4">Simple Lead Tracker</h2>
+              <div className="pl-6 pt-4 md:pt-0">
+                <h2 className="text-2xl font-bold pb-4">Here Be History</h2>
                 <p className="pb-4">
-                  Easy to use CMS built for small businesses and freelancers.
+                  Learn history through quizzes and upcoming interactive
+                  content.
                 </p>
                 <a
                   className="text-primary"
-                  href="https://www.simpleleadtracker.com"
+                  href="https://www.herebehistory.com"
                   target="_blank"
                 >
                   Visit Site
@@ -73,18 +74,18 @@ const Work = () => {
           </div>
 
           <div
-            className=" bg-gray transition-all Card w-3/4 mx-auto p-16 rounded-3xl border my-16"
+            className=" bg-gray transition-all Card p-4 mx-2 rounded-3xl border my-8"
             style={{ borderColor: "#c7cdce" }}
           >
-            <div className="block md:flex text-center md:text-left">
+            <div className="block text-center md:text-left">
               <img
-                className="rounded-3xl md:w-3/5 pt-4 md:pt-0"
+                className="rounded-3xl pt-4 md:pt-0"
                 src="/images/portfolio/writeProgress.jpg"
                 width="100%"
                 alt="Write Progress"
               />
-              <div className="md:w-2/5 pl-6">
-                <h2 className="text-2xl font-bold pb-4">Write Progres</h2>
+              <div className="pl-6">
+                <h2 className="text-2xl font-bold pb-4">Write Progress</h2>
                 <p className="pb-4">
                   Web app for helping writers track their writing, stay
                   consistent, and become better at their craft.
@@ -101,17 +102,17 @@ const Work = () => {
           </div>
 
           <div
-            className=" bg-gray transition-all Card w-3/4 mx-auto p-16 rounded-3xl border my-16"
+            className=" bg-gray transition-all Card p-4 mx-2 rounded-3xl border my-8"
             style={{ borderColor: "#c7cdce" }}
           >
-            <div className="block md:flex text-center md:text-left">
+            <div className="block text-center md:text-left">
               <img
-                className="rounded-3xl md:w-3/5 pt-4 md:pt-0"
+                className="rounded-3xl pt-4 md:pt-0"
                 src="/images/portfolio/my-daily-fortune.jpg"
                 width="100%"
                 alt="My Daily Fortune"
               />
-              <div className="md:w-2/5 pl-6">
+              <div className="pl-6">
                 <h2 className="text-2xl font-bold pb-4">My Daily Fortune</h2>
                 <p className="pb-4">
                   Mobile app that gives you a brand new fortune everday. Check
