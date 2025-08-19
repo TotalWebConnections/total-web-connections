@@ -1,7 +1,7 @@
 ---
 title: The Crusades Quiz Release
 date: "2025-08-19T18:20:37.121Z"
-image: "crusades-release.jpg"
+image: "crusadesrelease.jpg"
 ---
 
 We are happy to announce a new set of questions has been release for our Here Be History Quiz featuring the turbulent series of expeditions known as the Crusades! This brand-new quiz is now available, and features 200+ new questions covering a range of topics including the Crusades in the Middle-east, the Baltics, Spain, and more!
