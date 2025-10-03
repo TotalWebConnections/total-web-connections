@@ -10,7 +10,7 @@ This initial release sees around 300 new questions, but we’ll also be adding m
 
 This new release also includes several new questions for our previous, European-based quizzes. Certain events like the Mongol invasions or the spread of Islam directly interact with many of the European powers at the time, so you’ll see those appear in other quizzes as well.
 
-Lastly, we also release a new version of the mobile app that comes with a number of minor UI improvements. They are as follows:
+Lastly, we also released a new version of the mobile app that comes with a number of minor UI improvements. They are as follows:
 
 - Percent correct display is now showing the proper value.
 - Added separation between continents and lower level quizzes, Europe and France, for example.
